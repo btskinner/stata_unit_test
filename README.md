@@ -27,6 +27,9 @@ definitely improve on them.
 
 ## Helper functions
 
+The following helper functions are found in `test_commands.do`. Simply
+`include` the script to use them.
+
 #### `test_command`
 
 Use `test_command` just before your user-written command. It is a

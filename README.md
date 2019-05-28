@@ -1,5 +1,5 @@
 In the course of putting together code for a large project, I wrote a
-number of project-specific functions to reduce the number of repeated
+number of project-specific commands to reduce the number of repeated
 blocks of code. I wanted to perform unit tests to confirm they worked
 as expected, but was unable to find an existing process for doing so.
 
@@ -95,7 +95,7 @@ run_tests, testfiledirectory(path/to/test-*.do) [ stopiferror ]
 See the scripts in the `example` directory for an example testing
 process. The user-written command converts a school system-specific
 term code into a four-digit year. Two versions of the code are
-included: one that is correct and on that has a bug (indicated with
+included: one that is correct and one that has a bug (indicated with
 `_bug` at the end of the file name). Normally, the buggy version of
 the command would be overwritten by the patched version, but both are
 included so you can see how `run_tests` handles both passing and

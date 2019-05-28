@@ -6,7 +6,7 @@ user-written command `term_code_to_yyyy`, defined in
 `./test_scripts/test-term_code_to_yyyy.do`. A version with a bug is
 also tested. 
 
-The `test-*.do` files are heavily commented and should be reference
+The `test-*.do` files are heavily commented and should be referenced
 for how to set one up. Of course, the specific set up for your own
 commands will change depending on the expected output and what you
 want to test.

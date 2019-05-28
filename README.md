@@ -1,7 +1,7 @@
 In the course of putting together code for a large project, I wrote a
-number of project-specific commands to reduce the number of repeated
-blocks of code. I wanted to perform unit tests to confirm they worked
-as expected, but was unable to find an existing process for doing so.
+number of project-specific commands to reduce repeated blocks of
+code. I wanted to perform unit tests to confirm they worked as
+expected, but was unable to find an existing process for doing so.
 
 These helper functions and the process I ended up with are loosely
 based on R's [testthat](https://testthat.r-lib.org) package /

@@ -9,7 +9,12 @@ also tested.
 The `test-*.do` files are heavily commented and should be referenced
 for how to set one up. Of course, the specific set up for your own
 commands will change depending on the expected output and what you
-want to test.
+want to test. 
+
+After running, you can see that the buggy version of the command
+passed all but one test. Because the test checked the accuracy of
+specific data cells, the error could be quickly located and fixed.
+
 
 ## To run
 
